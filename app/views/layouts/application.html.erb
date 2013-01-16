@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TurbolinksAdsense</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+<a href="/application/first">first</a>
+<a href="/application/second">second</a>
+
+<%= yield %>
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4379359399658390";
+/* WR MR */
+google_ad_slot = "4746598348";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</body>
+</html>
